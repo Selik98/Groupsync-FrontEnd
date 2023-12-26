@@ -1,17 +1,15 @@
 import styled from "styled-components";
 
-const Holder = styled.form`
-  width: 25vw;
-  height: auto;
-  border-radius: 25pt;
+const Base = styled.form`
+  width: 75vw;
+  height: 80vh;
   background-color: #ffffff;
   border: solid 2pt;
-  padding:20px;
   display: flex;
   flex-direction: column;
-  justify-content: center;
+  justify-content: space-between;
   align-items: center;
   box-sizing:border-box;  
 `;
 
-export default Holder;
+export default Base;
